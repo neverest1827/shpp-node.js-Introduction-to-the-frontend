@@ -4,79 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <header class="heade">
-        <div class="header__inner">
+        <div class="header__inner container">
             <div class="logo">
                 <a class="logo__link" href="#">
-                    <img src="" alt="logo image" class="logo__img">
+                    <span class="logo__item-txt">Студент</span>
+                    <span class="logo__item-sh">Ш</span>
+                    <span class="logo__item-plus">++</span>
                 </a>
             </div>
             <ul class="social">
                 <li class="social__list-item">
-                    <a href="mailto:neverest1827@gmail.com" class="social__list-link">
-                        <img class="social__list-img" src="mail"></img>
+                    <a href="mailto:neverest1827@gmail.com" class="social__list-link" target="_blank">
+                        <img class="social__list-img" src="./img/icon/email.png" alt="mail"></img>
                     </a>
                 </li>
                 <li class="social__list-item">
-                    <a href="#" class="social__list-link">
-                        <img class="social__list-img" src="git"></img>
+                    <a href="https://github.com/neverest1827" class="social__list-link" target="_blank">
+                        <img class="social__list-img" src="./img/icon/git.png" alt="git"></img>
                     </a>
                 </li>
                 <li class="social__list-item">
-                    <a href="#" class="social__list-link">
-                        <img class="social__list-img" src="telegram"></img>
+                    <a href="https://t.me/fetisov_v_s" class="social__list-link" target="_blank">
+                        <img class="social__list-img" src="./img/icon/telegram.png" alt="telegram"></img>
                     </a>
                 </li>
             </ul>
         </div>
     </header>
     <section class="about">
-        <div class="about__inner">
+        <div class="about__inner container">
             <div class="about__img-box">
-                <img src="" alt="portfolio photo" class="about__img">
+                <img class="about__img" src="./img/main_photo.jpg" alt="portfolio photo" >
             </div>
             <div class="about__content">
-                <h1 class="about__title">Інформація про мене</h1>
+                <h1 class="about__title title">Інформація про мене</h1>
                 <ul class="about__list">
                     <li class="about__list-item">
-                        <p class="about__content">Ім'я: Віталій </p>
+                        <p class="about__content"><span class="strong">Ім'я:</span> Віталій </p>
                     </li>
                     <li class="about__list-item">
-                        <p class="about__content">Прізвище: Фетісов</p>
+                        <p class="about__content"><span class="strong">Прізвище:</span> Фетісов</p>
                     </li>
                     <li class="about__list-item">
-                        <p class="about__content">Кількість років: 28</p>
+                        <p class="about__content"><span class="strong">Кількість років:</span> 28</p>
                     </li>
                     <li class="about__list-item">
-                        <p class="about__content">Навички: HTML, CSS(SCSS), Java, JavaScript, Git</p>
+                        <p class="about__content"><span class="strong">Навички:</span> HTML, CSS(SCSS), Java, JavaScript, Git</p>
                     </li>
                     <li class="about__list-item">
                         <p class="about__content">
-                            Про себе: Закінчив базовий курс в Ш++ за стентфорським курсом. 
+                            <span class="strong">Про себе:</span> Закінчив базовий курс в Ш++ за стентфорським курсом. 
                             Зараз навчаюсь в Ш++ на профільному курсі Node.js. 
                             Являюсь волонтером школи та намагаюсь допомагати іншим студентам. 
                             В подальшому хочу стати full-stack спеціалістом.
                         </p>
                     </li>
                 </ul>
-                <div class="social">
-                    <ul class="social__list">
-                        
-                    </ul>
-                </div>
             </div>
         </div>
     </section>
     <section class="education">
-        <div class="education__inner">
-            <h2 class="education__title">
+        <div class="education__inner container">
+            <h2 class="education__title title">
                 Інформація про освіту
             </h2>
-            <iframe src="https://diploma.programming.org.ua/ua/d/zPE9X6BvVKaZDAm9EZm7Q12MYRgNGoqr" title="Diploma"></iframe>
+            <iframe class="iframe" src="https://diploma.programming.org.ua/ua/d/zPE9X6BvVKaZDAm9EZm7Q12MYRgNGoqr" title="Diploma"></iframe>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer__inner">
+            <p class="footer__text">
+                © Vitalii Fetisov. Всі права зашищені. 2023р.
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
